@@ -1,0 +1,126 @@
+.header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header__logo{
+    width: 65px;
+    object-fit: contain;
+    margin: 0 30px;
+}
+
+.header__search {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    flex: 1;
+}
+
+.search__upper{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+
+.header__searchInput{
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.header__searchIcon{
+    padding: 5px;
+    height: 22px !important;
+    background-color: #D3652A;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 10px;
+}
+
+.header__option{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.header__option__top{
+    font-size: 10px;
+    text-align: center;
+}
+
+.header__option__bottom{
+    font-size: 13px;
+    text-align: center;
+    font-weight: 800;
+}
+
+.header__optionBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.header__basketCount{
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #D3652A;
+    font-size: 15px;
+}
+
+.searchres{
+    position: absolute;
+    top: 75%;
+    display: flex;
+    width: 100%;
+}
+
+.searchres__wrapper{
+    background-color: white;
+    color: black;
+    width: 22.75rem;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+/* .searchres__list{
+} */
+
+/* .seacrchres__item > span{
+    margin-left: 10px;
+} */
+
+.seacrchres__item{
+    padding: 8px;
+    font-size: medium;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    transition: all 0.5s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.seacrchres__item:hover{
+    background: rgba(187, 191, 195, 0.534);
+}
+
+.search__img{
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+}
