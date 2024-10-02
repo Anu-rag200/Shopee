@@ -52,4 +52,4 @@ This page is the most important page with the perspective of ecommerce website. 
 The hosting is on `Firebase` and the database used is `FireStore`. And a node server is also hosted on cyclic platform to facilitate the payment gateway withour leaking APIs on the frontend.
 <hr>
 
-Made with Love by Dellucifer
+Made with Love by Anurag
