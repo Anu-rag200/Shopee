@@ -7,7 +7,6 @@ Apni-Dukaan is a type of ecommerce site. Actually it is a clone of one of the bi
 - HTML/CSS
 - JavaScript
 - ReactJs
-- NodeJs
 - Firebase/FireStore
 - Git/GitHub
 - Stripe/APIs
